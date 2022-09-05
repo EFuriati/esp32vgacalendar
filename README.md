@@ -38,6 +38,12 @@ include one of:
   
   I use the IRsend library to control the tv (on/off mostly), and i use a ldr connected to the tv led to know the tv status (tv led on = tv is off, tv led off = tv on).
   
+  To update, i use the AsyncElegantOTA library, because the esp32 is connected to the tv, and away from the computer, is possible to set a password for the upgrade.
+  The link for the upgrade is:
+  http://esp32ip/update
+  
+  
+  
   
   
   
