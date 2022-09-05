@@ -32,4 +32,12 @@ include one of:
   When first initializaded, if the esp32 isn't formatted, or the files are not found, the software will format and write some basic configuration,
   the initial password will be:  admin:admin
   
+  Follow the instructions for the vga connection on :
+  
+  http://www.fabglib.org/
+  
+  I use the IRsend library to control the tv (on/off mostly), and i use a ldr connected to the tv led to know the tv status (tv led on = tv is off, tv led off = tv on).
+  
+  
+  
   
