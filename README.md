@@ -27,4 +27,9 @@ include one of:
   Define your timezone:
   #define GMT_TIME_ZONE -3  // change to your timezone
 
+  First boot:
+  
+  When first initializaded, if the esp32 isn't formatted, or the files are not found, the software will format and write some basic configuration,
+  the initial password will be:  admin:admin
+  
   
