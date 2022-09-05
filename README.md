@@ -32,6 +32,17 @@ include one of:
   When first initializaded, if the esp32 isn't formatted, or the files are not found, the software will format and write some basic configuration,
   the initial password will be:  admin:admin
   
+  If you never used the ESPAsyncWiFiManager on your esp32, connect with a smartphone or notebook to the AutoConnectAP ssid and configure your wifi network.
+  
+  
+  Find the esp32 on your network, i use the software:
+  
+  bonjourBrowser
+  
+  The mDNS is enabled by default
+  
+  
+  
   Follow the instructions for the vga connection on :
   
   http://www.fabglib.org/
@@ -42,6 +53,8 @@ include one of:
   The link for the upgrade is:
   http://esp32ip/update
   
+  
+  The function mostravga() draws the calendar, and the function imprimehora() shows the time on the vga monitor(or tv).
   
   
   
