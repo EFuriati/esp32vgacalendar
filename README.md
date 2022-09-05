@@ -57,6 +57,18 @@ include one of:
   The function mostravga() draws the calendar, and the function imprimehora() shows the time on the vga monitor(or tv).
   
   
+  Web pages:
+  
+  Define your users on users
+    TODO: encrypt the password
+  
+  Define the pins you use on Configuration
+  
+  To add/delete holydays, you have to disable the VGA out (low memory issue).
+  
+  It is possible to add/delete schedules (for turning the tv on or off), in schedules
+  
+  
   
   
   
