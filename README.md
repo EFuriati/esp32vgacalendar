@@ -69,6 +69,11 @@ include one of:
   It is possible to add/delete schedules (for turning the tv on or off), in schedules
   
   
+  Photo:![tvlabtedex1](https://user-images.githubusercontent.com/77512731/188496663-ecd64be7-8a4b-4ccb-84ed-81c79ae3da5f.jpg)
+
+  
+  
+  
   
   
   
