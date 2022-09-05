@@ -24,4 +24,7 @@ include one of:
   #include "ptbr.h"  // english en.h or portuguese ptbr.h <Br>
   #include "en.h"  <br>
   
+  Define your timezone:
+  #define GMT_TIME_ZONE -3  // change to your timezone
+
   
