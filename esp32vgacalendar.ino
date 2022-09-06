@@ -14,7 +14,6 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
-
     
 #include <WiFi.h>
 #include "fabgl.h" // http://www.fabglib.org/
@@ -69,7 +68,7 @@ int period = 5000;
 // Version control
 #define versao  "2"
 #define subversao  "0"
-#define dataversao  "V. 2.0 01/09/2022 14:02h"
+#define dataversao  "V. 1.0 06/09/2022 09:59h"
 const char compile_date[] = __DATE__ " " __TIME__;
 
 #include "synctime.h"
@@ -327,7 +326,6 @@ void handleconfiguracao(AsyncWebServerRequest *request) {
 
   // imprime cabecalho da tabela:
   htmlpage +=   imprimetabela(0, String(Configuracao));
-
 
   File config;
   byte gravou = 0;
@@ -1126,14 +1124,14 @@ void handleavisos(AsyncWebServerRequest * request) {
         avisosf.print("][");
         avisosf.print(String(quebra[i]));
         avisosf.print("][");
-        if (dia[i] == "-") {
+        if (dia[i] == "0") {
           avisosf.print("00");
         }
         else {
           avisosf.print(dia[i]);
         }
         avisosf.print("][");
-        if (mes[i] == "-") {
+        if (mes[i] == "0") {
           avisosf.print("00");
         }
         else {
@@ -2834,7 +2832,7 @@ void setup()
   //esp_wifi_set_max_tx_power(82);
   WiFi.setTxPower(WIFI_POWER_19dBm);
   inicializafs();
-  LITTLEFS.begin();
+ // LITTLEFS.begin();
   //LITTLEFS.format();
   //LITTLEFS.remove("/feriado.txt");
   //LITTLEFS.remove("/programacao.txt");

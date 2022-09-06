@@ -89,8 +89,8 @@ void logs(String msg) {
     rFile.print("(");
     rFile.print(wdays[day_]);
     rFile.print(")");
-    if (day_ == 2 ) "  ";
-    if (day_ == 3 ) "   ";
+    if (day_ == 2 ) rFile.print("-");
+    if (day_ == 3 ) rFile.print("-");
     rFile.print(" - ");
     rFile.print(timeClient.getFormattedTime());
     rFile.println(" : " + msg);
