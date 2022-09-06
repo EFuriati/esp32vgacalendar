@@ -66,7 +66,7 @@ unsigned long previousMillis = 0;
 int period = 5000;
 
 // Version control
-#define versao  "2"
+#define versao  "1"
 #define subversao  "0"
 #define dataversao  "V. 1.0 06/09/2022 09:59h"
 const char compile_date[] = __DATE__ " " __TIME__;
